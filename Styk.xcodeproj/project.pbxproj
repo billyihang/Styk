@@ -7,39 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441747B021703DA300F7614B /* ProjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747AF21703DA300F7614B /* ProjectData.swift */; };
+		441747B221703DBA00F7614B /* Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747B121703DBA00F7614B /* Bootcamp.swift */; };
+		441747B421707C6B00F7614B /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747B321707C6B00F7614B /* TaskData.swift */; };
+		441747C521731E0800F7614B /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747C421731E0800F7614B /* ColorTableViewCell.swift */; };
+		441747D22173D7DC00F7614B /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747CA2173D7DC00F7614B /* User+CoreDataClass.swift */; };
+		441747D32173D7DC00F7614B /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747CB2173D7DC00F7614B /* User+CoreDataProperties.swift */; };
+		441747D42173D7DC00F7614B /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747CC2173D7DC00F7614B /* Project+CoreDataClass.swift */; };
+		441747D52173D7DC00F7614B /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747CD2173D7DC00F7614B /* Project+CoreDataProperties.swift */; };
+		441747D62173D7DC00F7614B /* BootcampTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747CE2173D7DC00F7614B /* BootcampTask+CoreDataClass.swift */; };
+		441747D72173D7DC00F7614B /* BootcampTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747CF2173D7DC00F7614B /* BootcampTask+CoreDataProperties.swift */; };
+		441747D82173D7DC00F7614B /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747D02173D7DC00F7614B /* Task+CoreDataClass.swift */; };
+		441747D92173D7DC00F7614B /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441747D12173D7DC00F7614B /* Task+CoreDataProperties.swift */; };
 		4460892D2112BE10001DA406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460892C2112BE10001DA406 /* AppDelegate.swift */; };
 		4460892F2112BE10001DA406 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460892E2112BE10001DA406 /* FirstViewController.swift */; };
 		446089342112BE10001DA406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446089322112BE10001DA406 /* Main.storyboard */; };
 		446089392112BE11001DA406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446089372112BE11001DA406 /* LaunchScreen.storyboard */; };
-		4460894121154360001DA406 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460894021154360001DA406 /* ToDoItem.swift */; };
+		4498651A212700DD007A03FA /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44986519212700DD007A03FA /* ProjectsTableViewCell.swift */; };
+		4498651C212700E5007A03FA /* TasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498651B212700E5007A03FA /* TasksTableViewCell.swift */; };
+		4498651E2127B263007A03FA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498651D2127B263007A03FA /* DataManager.swift */; };
+		449BCA31212B897900EF3077 /* AddProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449BCA30212B897900EF3077 /* AddProjectTableViewController.swift */; };
+		44B0DF8B21632CAF00891223 /* BootcampMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0DF8A21632CAF00891223 /* BootcampMasterTableViewController.swift */; };
+		44B0DF9021632DB800891223 /* BootcampDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0DF8F21632DB800891223 /* BootcampDetailViewController.swift */; };
+		44B0DF9221632E2400891223 /* BootcampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0DF9121632E2400891223 /* BootcampTableViewCell.swift */; };
+		44B0DF9621633DE800891223 /* BootcampIntroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0DF9521633DE800891223 /* BootcampIntroTableViewCell.swift */; };
+		44B0DFDB2169268700891223 /* Styk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44B0DFD92169268700891223 /* Styk.xcdatamodeld */; };
 		44EC90612125160C0051B762 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC90602125160C0051B762 /* MasterTableViewController.swift */; };
 		44EC90652125177B0051B762 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC90642125177B0051B762 /* SettingTableViewController.swift */; };
 		44EC9067212518D60051B762 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC9066212518D60051B762 /* TasksTableViewController.swift */; };
 		44EC9069212525360051B762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EC9068212525360051B762 /* Assets.xcassets */; };
 		44EC906B212528440051B762 /* AddNewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC906A212528440051B762 /* AddNewTaskCell.swift */; };
-		44EC906D21263CF20051B762 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC906C21263CF20051B762 /* User.swift */; };
-		44EC906F21263DAB0051B762 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC906E21263DAB0051B762 /* Project.swift */; };
 		44EC907121263F600051B762 /* CurrentTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC907021263F600051B762 /* CurrentTaskViewController.swift */; };
 		44EC9073212646810051B762 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EC9072212646810051B762 /* Misc.swift */; };
+		44FC25B8212CF8CB00352EBE /* PickColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC25B7212CF8CB00352EBE /* PickColorTableViewController.swift */; };
+		44FC25BE2131F80A00352EBE /* EditProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC25BD2131F80A00352EBE /* EditProjectTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441747AF21703DA300F7614B /* ProjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectData.swift; sourceTree = "<group>"; };
+		441747B121703DBA00F7614B /* Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp.swift; sourceTree = "<group>"; };
+		441747B321707C6B00F7614B /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
+		441747C421731E0800F7614B /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		441747CA2173D7DC00F7614B /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		441747CB2173D7DC00F7614B /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		441747CC2173D7DC00F7614B /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		441747CD2173D7DC00F7614B /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		441747CE2173D7DC00F7614B /* BootcampTask+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BootcampTask+CoreDataClass.swift"; sourceTree = "<group>"; };
+		441747CF2173D7DC00F7614B /* BootcampTask+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BootcampTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		441747D02173D7DC00F7614B /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		441747D12173D7DC00F7614B /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		446089292112BE10001DA406 /* Styk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Styk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460892C2112BE10001DA406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4460892E2112BE10001DA406 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		446089332112BE10001DA406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		446089382112BE11001DA406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4460893A2112BE11001DA406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4460894021154360001DA406 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		44986519212700DD007A03FA /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		4498651B212700E5007A03FA /* TasksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewCell.swift; sourceTree = "<group>"; };
+		4498651D2127B263007A03FA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		449BCA30212B897900EF3077 /* AddProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectTableViewController.swift; sourceTree = "<group>"; };
+		44B0DF8A21632CAF00891223 /* BootcampMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampMasterTableViewController.swift; sourceTree = "<group>"; };
+		44B0DF8F21632DB800891223 /* BootcampDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampDetailViewController.swift; sourceTree = "<group>"; };
+		44B0DF9121632E2400891223 /* BootcampTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampTableViewCell.swift; sourceTree = "<group>"; };
+		44B0DF9521633DE800891223 /* BootcampIntroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampIntroTableViewCell.swift; sourceTree = "<group>"; };
+		44B0DFDA2169268700891223 /* Styk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Styk.xcdatamodel; sourceTree = "<group>"; };
 		44EC90602125160C0051B762 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		44EC90642125177B0051B762 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		44EC9066212518D60051B762 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		44EC9068212525360051B762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44EC906A212528440051B762 /* AddNewTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskCell.swift; sourceTree = "<group>"; };
-		44EC906C21263CF20051B762 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		44EC906E21263DAB0051B762 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		44EC907021263F600051B762 /* CurrentTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTaskViewController.swift; sourceTree = "<group>"; };
 		44EC9072212646810051B762 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		44FC25B7212CF8CB00352EBE /* PickColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickColorTableViewController.swift; sourceTree = "<group>"; };
+		44FC25BD2131F80A00352EBE /* EditProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		441747C32171C68900F7614B /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4460892E2112BE10001DA406 /* FirstViewController.swift */,
+				44EC907021263F600051B762 /* CurrentTaskViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 		446089202112BE10001DA406 = {
 			isa = PBXGroup;
 			children = (
@@ -73,22 +122,65 @@
 			isa = PBXGroup;
 			children = (
 				4460892C2112BE10001DA406 /* AppDelegate.swift */,
-				4460892E2112BE10001DA406 /* FirstViewController.swift */,
-				44EC907021263F600051B762 /* CurrentTaskViewController.swift */,
+				441747C32171C68900F7614B /* Dashboard */,
 				44EC90602125160C0051B762 /* MasterTableViewController.swift */,
 				44EC9066212518D60051B762 /* TasksTableViewController.swift */,
-				44EC90642125177B0051B762 /* SettingTableViewController.swift */,
+				44986519212700DD007A03FA /* ProjectsTableViewCell.swift */,
+				4498651B212700E5007A03FA /* TasksTableViewCell.swift */,
 				44EC906A212528440051B762 /* AddNewTaskCell.swift */,
-				4460894021154360001DA406 /* ToDoItem.swift */,
-				44EC906E21263DAB0051B762 /* Project.swift */,
-				44EC906C21263CF20051B762 /* User.swift */,
-				44EC9072212646810051B762 /* Misc.swift */,
+				44FC25B6212CF87000352EBE /* Add project */,
+				44B0DF8E21632CC400891223 /* Bootcamp */,
+				44EC90642125177B0051B762 /* SettingTableViewController.swift */,
+				44B0DF8721632C2300891223 /* Data stuff */,
 				446089322112BE10001DA406 /* Main.storyboard */,
 				44EC9068212525360051B762 /* Assets.xcassets */,
 				446089372112BE11001DA406 /* LaunchScreen.storyboard */,
 				4460893A2112BE11001DA406 /* Info.plist */,
+				44B0DFD92169268700891223 /* Styk.xcdatamodeld */,
 			);
 			path = Styk;
+			sourceTree = "<group>";
+		};
+		44B0DF8721632C2300891223 /* Data stuff */ = {
+			isa = PBXGroup;
+			children = (
+				4498651D2127B263007A03FA /* DataManager.swift */,
+				441747AF21703DA300F7614B /* ProjectData.swift */,
+				441747B321707C6B00F7614B /* TaskData.swift */,
+				441747B121703DBA00F7614B /* Bootcamp.swift */,
+				44EC9072212646810051B762 /* Misc.swift */,
+				441747CA2173D7DC00F7614B /* User+CoreDataClass.swift */,
+				441747CB2173D7DC00F7614B /* User+CoreDataProperties.swift */,
+				441747CC2173D7DC00F7614B /* Project+CoreDataClass.swift */,
+				441747CD2173D7DC00F7614B /* Project+CoreDataProperties.swift */,
+				441747CE2173D7DC00F7614B /* BootcampTask+CoreDataClass.swift */,
+				441747CF2173D7DC00F7614B /* BootcampTask+CoreDataProperties.swift */,
+				441747D02173D7DC00F7614B /* Task+CoreDataClass.swift */,
+				441747D12173D7DC00F7614B /* Task+CoreDataProperties.swift */,
+			);
+			path = "Data stuff";
+			sourceTree = "<group>";
+		};
+		44B0DF8E21632CC400891223 /* Bootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				44B0DF8A21632CAF00891223 /* BootcampMasterTableViewController.swift */,
+				44B0DF9121632E2400891223 /* BootcampTableViewCell.swift */,
+				44B0DF8F21632DB800891223 /* BootcampDetailViewController.swift */,
+				44B0DF9521633DE800891223 /* BootcampIntroTableViewCell.swift */,
+			);
+			path = Bootcamp;
+			sourceTree = "<group>";
+		};
+		44FC25B6212CF87000352EBE /* Add project */ = {
+			isa = PBXGroup;
+			children = (
+				449BCA30212B897900EF3077 /* AddProjectTableViewController.swift */,
+				44FC25B7212CF8CB00352EBE /* PickColorTableViewController.swift */,
+				441747C421731E0800F7614B /* ColorTableViewCell.swift */,
+				44FC25BD2131F80A00352EBE /* EditProjectTableViewController.swift */,
+			);
+			path = "Add project";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +215,7 @@
 				TargetAttributes = {
 					446089282112BE10001DA406 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -162,15 +255,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44EC906F21263DAB0051B762 /* Project.swift in Sources */,
+				44B0DF9021632DB800891223 /* BootcampDetailViewController.swift in Sources */,
+				441747B021703DA300F7614B /* ProjectData.swift in Sources */,
+				44B0DF9221632E2400891223 /* BootcampTableViewCell.swift in Sources */,
+				449BCA31212B897900EF3077 /* AddProjectTableViewController.swift in Sources */,
+				44FC25B8212CF8CB00352EBE /* PickColorTableViewController.swift in Sources */,
 				44EC9067212518D60051B762 /* TasksTableViewController.swift in Sources */,
+				4498651C212700E5007A03FA /* TasksTableViewCell.swift in Sources */,
+				441747D52173D7DC00F7614B /* Project+CoreDataProperties.swift in Sources */,
+				441747D42173D7DC00F7614B /* Project+CoreDataClass.swift in Sources */,
+				441747B221703DBA00F7614B /* Bootcamp.swift in Sources */,
+				441747D62173D7DC00F7614B /* BootcampTask+CoreDataClass.swift in Sources */,
+				441747D32173D7DC00F7614B /* User+CoreDataProperties.swift in Sources */,
 				44EC90652125177B0051B762 /* SettingTableViewController.swift in Sources */,
 				4460892D2112BE10001DA406 /* AppDelegate.swift in Sources */,
+				44B0DF9621633DE800891223 /* BootcampIntroTableViewCell.swift in Sources */,
+				441747D92173D7DC00F7614B /* Task+CoreDataProperties.swift in Sources */,
 				44EC90612125160C0051B762 /* MasterTableViewController.swift in Sources */,
+				441747D82173D7DC00F7614B /* Task+CoreDataClass.swift in Sources */,
 				44EC9073212646810051B762 /* Misc.swift in Sources */,
-				44EC906D21263CF20051B762 /* User.swift in Sources */,
-				4460894121154360001DA406 /* ToDoItem.swift in Sources */,
+				44FC25BE2131F80A00352EBE /* EditProjectTableViewController.swift in Sources */,
+				441747D22173D7DC00F7614B /* User+CoreDataClass.swift in Sources */,
+				441747B421707C6B00F7614B /* TaskData.swift in Sources */,
+				4498651A212700DD007A03FA /* ProjectsTableViewCell.swift in Sources */,
+				441747C521731E0800F7614B /* ColorTableViewCell.swift in Sources */,
+				4498651E2127B263007A03FA /* DataManager.swift in Sources */,
+				44B0DFDB2169268700891223 /* Styk.xcdatamodeld in Sources */,
 				4460892F2112BE10001DA406 /* FirstViewController.swift in Sources */,
+				44B0DF8B21632CAF00891223 /* BootcampMasterTableViewController.swift in Sources */,
+				441747D72173D7DC00F7614B /* BootcampTask+CoreDataProperties.swift in Sources */,
 				44EC906B212528440051B762 /* AddNewTaskCell.swift in Sources */,
 				44EC907121263F600051B762 /* CurrentTaskViewController.swift in Sources */,
 			);
@@ -317,14 +430,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 356XWL47T4;
 				INFOPLIST_FILE = Styk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Billy.Styk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StykApp.Styk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -334,14 +448,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 356XWL47T4;
 				INFOPLIST_FILE = Styk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Billy.Styk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StykApp.Styk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -368,6 +483,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44B0DFD92169268700891223 /* Styk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44B0DFDA2169268700891223 /* Styk.xcdatamodel */,
+			);
+			currentVersion = 44B0DFDA2169268700891223 /* Styk.xcdatamodel */;
+			path = Styk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 446089212112BE10001DA406 /* Project object */;
 }
