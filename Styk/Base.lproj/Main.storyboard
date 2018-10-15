@@ -213,7 +213,7 @@
                         <sections>
                             <tableViewSection headerTitle="Name" id="Ibu-6A-EDf">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="vgA-NS-xdp">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="vgA-NS-xdp" customClass="SettingTableViewCell" customModule="Styk" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="30" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vgA-NS-xdp" id="7MX-dS-e0a">
@@ -1096,7 +1096,7 @@
             </objects>
             <point key="canvasLocation" x="2344.8000000000002" y="3058.9205397301353"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Productivity Bootcamp-->
         <scene sceneID="pZq-hd-PTx">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="Qvq-XP-bFJ" customClass="BootcampMasterTableViewController" customModule="Styk" customModuleProvider="target" sceneMemberID="viewController">
@@ -1181,7 +1181,7 @@
                             <outlet property="delegate" destination="Qvq-XP-bFJ" id="Oj5-v6-9v3"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="rso-rw-Vd2"/>
+                    <navigationItem key="navigationItem" title="Productivity Bootcamp" id="rso-rw-Vd2"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qWb-C1-QhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

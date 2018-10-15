@@ -20,20 +20,29 @@ class SettingTableViewController: UITableViewController {
     private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     private var fetchedRC: NSFetchedResultsController<User>!
     
+    var toolBar: UIToolbar?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        tableView.tableFooterView = UIView(frame: .zero)
+        toolBar = UIToolbar()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(exitEditing))
-        self.view.addGestureRecognizer(tapGesture)
+        //let tapGesture = UITapGestureRecognizer(target: self, action: #selector(exitEditing))
+        //self.view.addGestureRecognizer(tapGesture)
+        
+        let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneBtnPressed))
+        toolBar?.setItems([doneBtn], animated: false)
+        nameLabel.inputAccessoryView = toolBar
+        toolBar?.sizeToFit()
     }
 
+    @objc func doneBtnPressed() {
+        self.view.endEditing(true)
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         refresh()
         refreshUI()

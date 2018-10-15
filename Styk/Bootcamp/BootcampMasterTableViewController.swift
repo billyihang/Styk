@@ -25,6 +25,7 @@ class BootcampMasterTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.prefersLargeTitles = true
         tableView.separatorStyle = .none
     }
 

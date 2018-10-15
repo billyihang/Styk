@@ -23,6 +23,7 @@
 		4460892F2112BE10001DA406 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460892E2112BE10001DA406 /* FirstViewController.swift */; };
 		446089342112BE10001DA406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446089322112BE10001DA406 /* Main.storyboard */; };
 		446089392112BE11001DA406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446089372112BE11001DA406 /* LaunchScreen.storyboard */; };
+		44904D3221745C630000A2F5 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44904D3121745C630000A2F5 /* SettingTableViewCell.swift */; };
 		4498651A212700DD007A03FA /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44986519212700DD007A03FA /* ProjectsTableViewCell.swift */; };
 		4498651C212700E5007A03FA /* TasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498651B212700E5007A03FA /* TasksTableViewCell.swift */; };
 		4498651E2127B263007A03FA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4498651D2127B263007A03FA /* DataManager.swift */; };
@@ -62,6 +63,7 @@
 		446089332112BE10001DA406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		446089382112BE11001DA406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4460893A2112BE11001DA406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44904D3121745C630000A2F5 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		44986519212700DD007A03FA /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
 		4498651B212700E5007A03FA /* TasksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewCell.swift; sourceTree = "<group>"; };
 		4498651D2127B263007A03FA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				44FC25B6212CF87000352EBE /* Add project */,
 				44B0DF8E21632CC400891223 /* Bootcamp */,
 				44EC90642125177B0051B762 /* SettingTableViewController.swift */,
+				44904D3121745C630000A2F5 /* SettingTableViewCell.swift */,
 				44B0DF8721632C2300891223 /* Data stuff */,
 				446089322112BE10001DA406 /* Main.storyboard */,
 				44EC9068212525360051B762 /* Assets.xcassets */,
@@ -277,6 +280,7 @@
 				44FC25BE2131F80A00352EBE /* EditProjectTableViewController.swift in Sources */,
 				441747D22173D7DC00F7614B /* User+CoreDataClass.swift in Sources */,
 				441747B421707C6B00F7614B /* TaskData.swift in Sources */,
+				44904D3221745C630000A2F5 /* SettingTableViewCell.swift in Sources */,
 				4498651A212700DD007A03FA /* ProjectsTableViewCell.swift in Sources */,
 				441747C521731E0800F7614B /* ColorTableViewCell.swift in Sources */,
 				4498651E2127B263007A03FA /* DataManager.swift in Sources */,
